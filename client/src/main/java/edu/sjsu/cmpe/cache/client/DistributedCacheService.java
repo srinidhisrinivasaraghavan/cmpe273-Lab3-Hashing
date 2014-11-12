@@ -55,4 +55,8 @@ public class DistributedCacheService implements CacheServiceInterface {
             System.out.println("Failed to add to the cache.");
         }
     }
+    public String toString() {
+		return cacheServerUrl;
+	}
 }
+
